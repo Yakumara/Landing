@@ -1,0 +1,167 @@
+body {
+	padding:0px; 
+	margin:0px;
+	color: black;
+	font-family: Arial;
+
+}
+#first {
+	height: 800px;
+	background: url(../img/first.jpg) no-repeat center top;
+	color: #fff;
+}
+.container {
+	width: 1170px;
+	margin: 0px auto;
+}
+header {
+	padding-top: 50px;
+}
+.mail{
+	float: left;
+	font-size: 14px;
+	background: url(../img/mail.png) no-repeat left center;
+	padding-left: 30px;
+}
+.logo{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 400px;
+}
+.number{
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	background: url(../img/phone.png) no-repeat left center;
+	padding-left: 30px;
+}
+.logo span{
+	color: #F8AF00;
+}
+h1{
+	font-size: 41px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h1 span{
+	font-size: 31px;
+	font-weight: normal;
+	display: block;
+	margin-top: 280px;
+}
+.button{
+	background: #FFB400;
+	padding: 25px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+	width: 250px;
+}
+h2{
+	font-size: 33px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	margin-top: 80px;
+}
+.photo{
+	display: block;
+	margin: 40px auto 26px auto;
+	width: 191px;
+	height: 191px;
+}
+.about_title{
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about_text{
+	font-size: 15px
+	width:455px;
+	text-align: center;
+	margin: 0px auto;
+}
+.social-block{
+	margin: 30px auto;
+	width: 120px;
+	padding-bottom: 30px;
+}
+.clearfix:after {
+	content: '';
+	width: 100%;
+	display: block;
+}
+.social{
+	border-radius: 50%;
+	width: 31px;
+	height: 31px;
+	background: black;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 11px;
+}
+.social:nth-child(3) {
+	margin-right: 0px;
+}
+.social:hover{
+	background: #FFB400;
+	box-shadow: 0px 0px 0px 6px #FFE4A3;
+}
+#order{
+	background: #F2F2F2;
+	padding: 30px 0px 100px 0px;
+}
+.form{
+	width: 293px;
+	margin: 0px auto;
+}
+.cell{
+	border-radius: 5px;
+	display: block;
+	background: #fff;
+	height: 57px;
+	padding-left: 24px;
+	border: 0px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	margin-bottom: 14px;
+	width: 100%;
+	font-size: 15px;
+}
+.act {
+	border: 0px;
+	cursor:  pointer;
+	font-size: 17px;
+	width: 318px;
+	box-sizing: border-box;
+}
+footer{
+	background: #000000;
+	color: #acacac;
+	padding: 50px 0px 60px 0px;
+}
+.credits{
+	font-size: 14px;
+	float: left;
+}
+footer .logo{
+	margin-left: 0px;
+	margin-right: 350px;
+}
+.button:hover{
+	background: #F6CC44;
+}
+.button:active{
+	background: #35F60E;
+}
